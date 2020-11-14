@@ -1,0 +1,29 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu);
+@media (max-width: 1430px) {
+
+}
+@media (max-width: 1057px) {
+  .searchSection_button{
+    margin-top: 20px;
+  }
+  .sectionDesc_list_item{
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 780px) {
+  .mainSection{
+    flex-direction: column;
+  }
+  .mainSection_description{
+    margin-top: 20px;
+  }
+}
+@media (max-width : 590px){
+  .reportSection_thTitle, .reportSection_tdData{
+    font-size: 11px;
+  }
+  .reportSection_tdUsed, .reportSection_tdSlope, .reportSection_tdOffset, .reportSection_tdUser{
+    font-size: 10px;
+  }
+}

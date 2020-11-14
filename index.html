@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<head>
+  <title>Report</title>
+  <link href="style.css" rel="stylesheet">
+  <link href="media.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <header>
+    <div class="mainSection">
+      <div class="mainSection_search">
+        <div class="searchSection">
+          <p class="searchSection_title">Enter inventory number, guid or bims id</p>
+          <select class="searchSection_list" name="#">
+            <option value="#">A-001234</option>
+            <option value="#">2</option>
+            <option value="#">3</option>
+          </select>
+          <input class="searchSection_button" type="submit" value="Search">
+        </div>
+        <div class="searchTitle">
+          <img class="searchTitle_img" src="scale.png" alt="Фото">
+          <p class="searchTitle_name">Аналитические весы OHAUS Adventurer AX324 (B715976163)</p>
+        </div>
+        <div class="searchFilter">
+          <select class="searchFilter_list" name="#">
+            <option value="#">1 month</option>
+            <option value="#">2 months</option>
+            <option value="#">3 months</option>
+          </select>
+          <form class="searchFilter_form">
+            <p><input id="searchFilter_form_item" type="radio" name="" value="">Celibration</p>
+            <p><input id="searchFilter_form_item" type="radio" name="" value="">Measuring</p>
+            <p><input id="searchFilter_form_item" type="radio" name="" value="">Using</p>
+          </form>
+          <button class="searchFilter_button">Generate report</button>
+        </div>
+      </div>
+      <div class="mainSection_description">
+        <ul class="sectionDesc_list">
+          <li class="sectionDesc_list_item"><div class="sectionDesc_list_itemRes">Тип оборудования: </div>Весы</li>
+          <li class="sectionDesc_list_item"><div class="sectionDesc_list_itemRes">Статус: </div>Готов к работе</li>
+          <li class="sectionDesc_list_item"><div class="sectionDesc_list_itemRes">Изготовитель:</div>Ohaus</li>
+          <li class="sectionDesc_list_item"><div class="sectionDesc_list_itemRes">Модель:</div>AX-123</li>
+          <li class="sectionDesc_list_item"><div class="sectionDesc_list_itemRes">Ответственное подразделение (ремонт):</div>Группа обслуживания лабораторного оборудования</li>
+          <li class="sectionDesc_list_item"><div class="sectionDesc_list_itemRes">Эксплуатирующее подразделение:</div>Химико-аналитическая лаборатория 2.0</li>
+          <li class="sectionDesc_list_item"><div class="sectionDesc_list_itemRes">МОЛ:</div>Иванов Иван Иванович</li>
+          <li class="sectionDesc_list_item"><div class="sectionDesc_list_itemRes">Территория:</div>г. Санкт-Петербург (Нойдорф)</li>
+          <li class="sectionDesc_list_item"><div class="sectionDesc_list_itemRes">Серийный номер:</div>B715976163</li>
+          <li class="sectionDesc_list_item"><div class="sectionDesc_list_itemRes">GUID:</div>508b2a71-662e-4983-ae0c-3cb0c1cd21c5</li>
+          <li class="sectionDesc_list_item"><div class="sectionDesc_list_itemRes">Bims ID:</div>49db8db1-585f-4b9e-bbf0-8a59698edc8b</li>
+          <li class="sectionDesc_list_item"><div class="sectionDesc_list_itemRes">Tam:</div>A-001234</li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="reportSection">
+      <table>
+        <caption class="reportSection_title">Calibration report</caption>
+        <tr class="reportSection_tr">
+          <th class="reportSection_thTitle">Data</th>
+          <th class="reportSection_thTitle">Used buffer solution</th>
+          <th class="reportSection_thTitle">Slope, % Norm 95-105</th>
+          <th class="reportSection_thTitle">Offset, mV Norm ±(0-20)</th>
+          <th class="reportSection_thTitle">User</th>
+        </tr>
+        <tr class="reportSection_tr">
+          <td class="reportSection_tdData">04.10.19 10:23</td>
+          <td class="reportSection_tdUsed">
+            <ul>
+              <li>B1:№2000460789536:pH 1.09</li>
+              <li>B2:№2000460789536:pH 2.00</li>
+              <li>B3:№2000460789536:pH 4.01</li>
+              <li>B4:№2000460789536:pH 7.00</li>
+              <li>B5:№2000460789536:pH 9.21</li>
+            </ul>
+          </td>
+          <td class="reportSection_tdSlope">98.7<div class="reportSection_spriteYes"></div></td>
+          <td class="reportSection_tdOffset">-0.3<div class="reportSection_spriteYes"></div></td>
+          <td class="reportSection_tdUser">Иванов Генадий Петрович</td>
+        </tr>
+        <tr class="reportSection_tr">
+          <td class="reportSection_tdData">04.10.19 10:23</td>
+          <td class="reportSection_tdUsed">
+            <ul>
+              <li>B1:№2000460789536:pH 1.09</li>
+              <li>B2:№2000460789536:pH 2.00</li>
+              <li>B3:№2000460789536:pH 4.01</li>
+              <li>B4:№2000460789536:pH 7.00</li>
+              <li>B5:№2000460789536:pH 9.21</li>
+            </ul>
+          </td>
+          <td class="reportSection_tdSlope">98.7<div class="reportSection_spriteYes"></div></td>
+          <td class="reportSection_tdOffset">-0.3<div class="reportSection_spriteYes"></div></td>
+          <td class="reportSection_tdUser">Петров Иван Генадьевич</td>
+        </tr>
+        <tr class="reportSection_tr">
+          <td class="reportSection_tdData">04.10.19 10:23</td>
+          <td class="reportSection_tdUsed">
+            <ul>
+              <li>B1:№2000460789536:pH 1.09</li>
+              <li>B2:№2000460789536:pH 2.00</li>
+              <li>B3:№2000460789536:pH 4.01</li>
+              <li>B4:№2000460789536:pH 7.00</li>
+              <li>B5:№2000460789536:pH 9.21</li>
+            </ul>
+          </td>
+          <td class="reportSection_tdSlope">98.7<div class="reportSection_spriteYes"></div></td>
+          <td class="reportSection_tdOffset">-0.3<div class="reportSection_spriteYes"></div></td>
+          <td class="reportSection_tdUser">Петров Генадий Иванович</td>
+        </tr>
+        <tr class="reportSection_tr">
+          <td class="reportSection_tdData">04.10.19 10:23</td>
+          <td class="reportSection_tdUsed">
+            <ul>
+              <li>B1:№2000460789536:pH 1.09</li>
+              <li>B2:№2000460789536:pH 2.00</li>
+              <li>B3:№2000460789536:pH 4.01</li>
+              <li>B4:№2000460789536:pH 7.00</li>
+              <li>B5:№2000460789536:pH 9.21</li>
+            </ul>
+          </td>
+          <td class="reportSection_tdSlope">90.1<div class="reportSection_spriteNo"></div></td>
+          <td class="reportSection_tdOffset">-0.5<div class="reportSection_spriteYes"></div></td>
+          <td class="reportSection_tdUser">Генадьев Иван Петрович</td>
+        </tr>
+      </table>
+    </div>
+  </main>
+  <footer>
+
+  </footer>
+</body>

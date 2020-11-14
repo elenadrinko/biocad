@@ -1,0 +1,166 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu);
+li {
+  list-style-type: none;
+}
+ul {
+  margin-left: 0; /* Отступ слева в браузере IE и Opera */
+  padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
+ }
+
+
+.mainSection {
+  margin: 3% 5%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.mainSection_search{
+  margin-right: 15%;
+}
+.searchSection {
+  font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+.searchSection_title {
+  color: #8C8C8C;
+}
+.searchSection_list{
+  width: 210px;
+  height: 30px;
+  font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
+  color: #353535;
+  font-size: 16px;
+  padding-left: 12px;
+  margin-right: 3%;
+}
+.searchSection_button{
+  width: 90px;
+  height: 40px;
+  background: #353535;
+  border-radius: 3px;
+  font-size: 14px;
+  color: #fff;
+}
+.searchTitle{
+  display: flex;
+  margin-top: 30px;
+}
+.searchTitle_img{
+  width: 39.74px;
+  height: 40px;
+  object-fit:cover;
+  margin: 20px 3% 0 0;
+}
+.searchTitle_name{
+  font-size: 20px;
+  font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
+  color: #353535;
+}
+.searchFilter{
+  margin-top: 30px;
+}
+.searchFilter_list{
+  width: 220px;
+  height: 30px;
+  font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
+  color: #353535;
+  font-size: 16px;
+  padding-left: 12px;
+}
+.searchFilter_form{
+  font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
+  color: #353535;
+  font-size: 14px;
+}
+#searchFilter_form_item{
+  margin-right: 12px;
+}
+.searchFilter_button{
+  width: 180px;
+  height: 40px;
+  background: #4990E2;
+  border-radius: 3px;
+  font-size: 14px;
+  color: #fff;
+}
+
+
+ table {
+   border-collapse: collapse;
+   width: 100%;
+ }
+
+.mainSection_description {
+  background: #F7F7F7;
+  border-radius: 5px;
+  width: 100%;
+}
+.sectionDesc_list {
+  font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: black;
+  padding: 5%;
+}
+.sectionDesc_list_item {
+   color: black;
+   display: flex;
+   flex-wrap: nowrap;
+ }
+.sectionDesc_list_itemRes {
+  color: #8C8C8C;
+  padding-right: 20px;
+  padding-bottom: 2px;
+}
+
+
+.reportSection {
+  font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: #353535;
+  border: 1px dashed #939DA6;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  margin: 10% 5%;
+}
+.reportSection_spriteYes {
+  width:13px; 
+  height:14px; 
+  background:url(sprite.png) 0 0px;
+}
+.reportSection_spriteNo {
+  width:13px; 
+  height:14px; 
+  background:url(sprite.png) 0 14px;
+}
+.reportSection_title {
+  margin: 5% 0 0 5%;
+  text-align: left;
+  color: black;
+  font-weight: bold;
+}
+.reportSection_tr:first-child {
+  border-bottom: none;
+}
+.reportSection_tr {
+  border-bottom: 1px dashed #E9E9E9;
+}
+.reportSection_thTitle {
+  font-size: 13px;
+  color: #939DA6;
+  padding: 3% 2%;
+  text-align: left;
+}
+.reportSection_thTitle:first-child, .reportSection_tdData:first-child {
+  padding-left: 5%;
+}
+.reportSection_tdData {
+  padding: 2% 40px;
+}
+.reportSection_tdUsed, .reportSection_tdSlope, .reportSection_tdOffset {
+  font-size: 13px;
+  padding: 2% 2%;
+}
+.reportSection_tdUser {
+  font-size: 12px;
+  padding: 2% 2%;
+}
